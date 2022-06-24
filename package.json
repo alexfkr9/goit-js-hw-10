@@ -2,7 +2,7 @@
   "name": "goit-js-hw-10",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://alexfkr9.github.io/goit-js-hw-10/index.html ",
+  "homepage": "https://alexfkr9.github.io/goit-js-hw-10/index.html",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-10/"
@@ -15,7 +15,9 @@
   "author": "Alex Fkr",
   "license": "ISC",
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "lodash.debounce": "^4.0.8",
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.5"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
